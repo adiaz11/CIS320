@@ -1,8 +1,10 @@
 # CIS320
 
 Code Instructions
+To upload the data to R enter the following: 
 > data1 <-read.csv(file.choose(), header=T)
-If you want to see the data enter the following code:
+Then select the .csv where you saved it
+To see the data enter the following code:
 > data1
 To Calculate the Mean enter the following:
 >sapply(data,mean)
